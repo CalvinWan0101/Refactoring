@@ -1,0 +1,39 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>tw.teddysoft.ezdoc</groupId>
+        <artifactId>ezdoc</artifactId>
+        <version>${revision}</version>
+    </parent>
+
+    <artifactId>ezdoc-plugins</artifactId>
+    <packaging>jar</packaging>
+
+    <name>ezdoc-plugins</name>
+    <url>http://maven.apache.org</url>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>tw.teddysoft.ezdoc</groupId>
+            <artifactId>ezdoc-metadata</artifactId>
+            <version>${revision}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.json</groupId>
+            <artifactId>json</artifactId>
+            <version>20211205</version>
+        </dependency>
+
+        <dependency>
+            <groupId>tw.teddysoft.ezspec</groupId>
+            <artifactId>ezspec-core</artifactId>
+            <version>2.0.1</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+</project>

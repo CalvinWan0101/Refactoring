@@ -1,0 +1,3 @@
+```ezDoc
+@Definition (Rule.class)
+```
